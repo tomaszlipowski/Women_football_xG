@@ -13,14 +13,14 @@ The project leverages the **Hudl StatsBomb Open Data** and was developed as part
 Initial steps were exploratory, as documented in [`first_analysis.ipynb`](beginnings/first_analysis.ipynb), where different ideas and directions were tested. The goal was to find a topic suitable for both academic research and grant application.
 
 <p align="center">
-  <img src="Images/drawn_pitch.png" alt="Hand-drawn football pitch" width="500"/>
+  <img src="images/drawn_pitch.png" alt="Hand-drawn football pitch" width="500"/>
   <br>
   <em>This pitch was hand-drawn using basic geometry and Matplotlib. It represents one of the earliest stages of the project when I wasn't aware of Statsbombpy Pitch.</em>
 </p>
 
 After receiving the grant, I enrolled in several courses, including the **McKayJohns' course**, where I developed an interactive dashboard:
 
-![Dashboard](Images/dashboard.png)
+![Dashboard](images/dashboard.png)
 
 Eventually, I narrowed the focus to the xG model for women's football. This final direction led to a successful presentation at the **PP-RAI’2025** conference.
 
@@ -40,7 +40,7 @@ The core part of the project lives in the [`my_xG/`](my_xG/) directory, which co
 At the start of the notebook, you can choose whether to train the model once or 10 times. Running it 10 times improves stability but increases runtime.
 
 <p align="center">
-  <img src="Images/additional_parameters.png" alt="Additional parameters" width="500"/>
+  <img src="images/additional_parameters.png" alt="Additional parameters" width="500"/>
   <br>
   <em>
     I added five custom parameters to the model, which are important to the model and helped reduce the log loss:
@@ -69,7 +69,7 @@ At the start of the notebook, you can choose whether to train the model once or 
 
 As part of the analysis, I examined how long-range shots differ between men's and women's football, uncovering key distinctions that highlight the importance of adapting xG models to women’s football.
 
-![Long-range shot example](Images/long-range_shot.png)
+![Long-range shot example](images/long-range_shot.png)
 
 ---
 
@@ -77,7 +77,7 @@ As part of the analysis, I examined how long-range shots differ between men's an
 
 - 📈 Distribution of predicted probabilities vs Statsbombs:
 
-![Distribution](Images/xG_distribution.png)
+![Distribution](images/xG_distribution.png)
 
 - 📋 Long-range shots results:
 
@@ -125,7 +125,7 @@ women_football_xG/
 │   ├── data_preparation.ipynb
 │   ├── my_xG.ipynb
 │   └── equal_dataframe.csv
-├── Images/
+├── images/
 │   ├── additional_parameters.png
 │   ├── drawn_pitch.png
 │   ├── dashboard.png

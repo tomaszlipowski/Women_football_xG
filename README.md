@@ -28,10 +28,9 @@ After receiving the grant, I enrolled in several courses, including the **McKayJ
 
 Eventually, I narrowed the focus to the xG model for women's football. This final direction led to a successful presentation at the **PP-RAI’2025** conference.
 
-- 🔗 [Article (PDF)](article_PP-RAI2025.pdf)
-- 🔗 [Conference poster (PDF)](poster_PP-RAI2025.pdf)
-- 🔗 [Oral presentation (Google drive link)](https://drive.google.com/file/d/1Y9GE6d4SyDwuiMwcwkkVlx0UsKMR5eIo/view?usp=sharing)
-
+- 🔗 [Article](article_PP-RAI2025.pdf)
+- 🔗 [Conference poster](poster_PP-RAI2025.pdf)
+- 🔗 You can download the full paper from the [Releases section](https://github.com/tomaszlipowski/Women_football_xG/releases/)
 ---
 
 ## 🤖 Final xG Model

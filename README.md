@@ -107,12 +107,12 @@ The study provided a deeper understanding of the women’s football context. The
 
 ## 📂 Repository Structure
 
-women_football_xG/  
-├── README.md  
+`women_football_xG/`
+`├── README.md`  
 ├── article_PP-RAI2025.pdf  
 ├── poster_PP-RAI2025.pdf  
 ├── beginnings/  
-│`    `└── first_analysis.ipynb  
+`│    └── first_analysis.ipynb`  
 ├── preparation/  
 │    ├── dashboard.ipynb  
 │            └── match_prediction.ipynb  

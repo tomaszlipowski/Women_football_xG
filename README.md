@@ -47,13 +47,13 @@ At the start of the notebook, you can choose whether to train the model once or 
   <img src="images/additional_parameters.png" alt="Additional parameters" width="700"/>
   <br>
   <em>
-    I added five custom parameters, which are important to the model and helped reduce the log loss:
+    I added five custom parameters, which are important to the model and helped reduce the log loss.
     <ul>
-      <li>Pressing</li>
-      <li>Players in the box</li>
-      <li>Players in shot-keeper cone</li>
-      <li>Opponent players in shot-keeper cone</li>
-      <li>Goalkeeper in shot-keeper cone</li>
+      <li>goalkeeper in shot keeper cone</li>
+      <li>players in shot keeper cone</li>
+      <li>opponent players in shot keeper cone</li>
+      <li>players in the box</li>
+      <li>pressing</li>
     </ul>
   </em>
 </p>
@@ -105,4 +105,6 @@ The study provided a deeper understanding of the women’s football context. The
 
 ---
 
-<pre> ## 📂 Repository Structure ``` women_football_xG/ ├── README.md ├── article_PP-RAI2025.pdf ├── poster_PP-RAI2025.pdf ├── presentation_PP-RAI2025.pdf ├── beginnings/ │ └── first_analysis.ipynb ├── preparation/ │ ├── dashboard.ipynb │ └── match_prediction.ipynb ├── my_xG/ │ ├── data_preparation.ipynb │ ├── my_xG.ipynb │ └── equal_dataframe.csv ├── images/ │ ├── additional_parameters.png │ ├── drawn_pitch.png │ ├── dashboard.png │ ├── long-range_shot.png │ └── xG_distribution.png ``` </pre>
+## 📂 Repository Structure
+
+women_football_xG/ ├── README.md ├── article_PP-RAI2025.pdf ├── poster_PP-RAI2025.pdf ├── presentation_PP-RAI2025.pdf ├── beginnings/ │ └── first_analysis.ipynb ├── preparation/ │ ├── dashboard.ipynb │ └── match_prediction.ipynb ├── my_xG/ │ ├── data_preparation.ipynb │ ├── my_xG.ipynb │ └── equal_dataframe.csv ├── images/ │ ├── additional_parameters.png │ ├── drawn_pitch.png │ ├── dashboard.png │ ├── long-range_shot.png │ └── xG_distribution.png

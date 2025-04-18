@@ -112,9 +112,9 @@ women_football_xG/
 ├── article_PP-RAI2025.pdf  
 ├── poster_PP-RAI2025.pdf  
 ├── beginnings/  
-│            └── first_analysis.ipynb  
+│`    `└── first_analysis.ipynb  
 ├── preparation/  
-│            ├── dashboard.ipynb  
+│    ├── dashboard.ipynb  
 │            └── match_prediction.ipynb  
 ├── my_xG/  
 │            ├── data_preparation.ipynb  

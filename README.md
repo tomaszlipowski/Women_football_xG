@@ -112,17 +112,17 @@ women_football_xG/
 ├── article_PP-RAI2025.pdf  
 ├── poster_PP-RAI2025.pdf  
 ├── beginnings/  
-│    └── first_analysis.ipynb  
+│            └── first_analysis.ipynb  
 ├── preparation/  
-│    ├── dashboard.ipynb  
-│    └── match_prediction.ipynb  
+│            ├── dashboard.ipynb  
+│            └── match_prediction.ipynb  
 ├── my_xG/  
-│    ├── data_preparation.ipynb  
-│    ├── my_xG.ipynb  
-│    └── equal_dataframe.csv  
+│            ├── data_preparation.ipynb  
+│            ├── my_xG.ipynb  
+│            └── equal_dataframe.csv  
 ├── images/  
-│    ├── additional_parameters.png  
-│    ├── drawn_pitch.png  
-│    ├── dashboard.png  
-│    ├── long-range_shot.png  
-│    └── xG_distribution.png
+│            ├── additional_parameters.png  
+│            ├── drawn_pitch.png  
+│            ├── dashboard.png  
+│            ├── long-range_shot.png  
+│            └── xG_distribution.png

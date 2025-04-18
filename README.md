@@ -107,22 +107,22 @@ The study provided a deeper understanding of the women’s football context. The
 
 ## 📂 Repository Structure
 
-`women_football_xG/`
+`women_football_xG/`  
 `├── README.md`  
-├── article_PP-RAI2025.pdf  
-├── poster_PP-RAI2025.pdf  
-├── beginnings/  
+`├── article_PP-RAI2025.pdf`  
+`├── poster_PP-RAI2025.pdf`  
+`├── beginnings/`  
 `│    └── first_analysis.ipynb`  
-├── preparation/  
-│    ├── dashboard.ipynb  
-│            └── match_prediction.ipynb  
-├── my_xG/  
-│            ├── data_preparation.ipynb  
-│            ├── my_xG.ipynb  
-│            └── equal_dataframe.csv  
-├── images/  
-│            ├── additional_parameters.png  
-│            ├── drawn_pitch.png  
-│            ├── dashboard.png  
-│            ├── long-range_shot.png  
-│            └── xG_distribution.png
+`├── preparation/`  
+`│    ├── dashboard.ipynb`  
+`│    └── match_prediction.ipynb`  
+`├── my_xG/`  
+`│    ├── data_preparation.ipynb`  
+`│    ├── my_xG.ipynb`  
+`│    └── equal_dataframe.csv`  
+`├── images/`  
+`│    ├── additional_parameters.png`  
+`│    ├── drawn_pitch.png`  
+`│    ├── dashboard.png`  
+`│    ├── long-range_shot.png`  
+`│    └── xG_distribution.png`

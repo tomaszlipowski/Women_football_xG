@@ -21,7 +21,7 @@ Initial steps were exploratory, as documented in [`first_analysis.ipynb`](beginn
 After receiving the grant, I enrolled in several courses, including the **McKayJohns' course**, where I developed an interactive [`dashboard.ipynb`](preparation/dashboard.ipynb):
 
 <p align="center">
-  <img src="images/dashboard.png" alt="Dashboard" width="500"/>
+  <img src="images/dashboard.png" alt="Dashboard" width="600"/>
   <br>
   <em>An interactive dashboard that quickly presents crucial match statistics.</em>
 </p>
@@ -74,7 +74,7 @@ At the start of the notebook, you can choose whether to train the model once or 
 As part of the analysis, I examined how long-range shots differ between men's and women's football, uncovering key distinctions that highlight the importance of adapting xG models to women’s football.
 
 <p align="center">
-  <img src="images/long_range_area.png" alt="Long-range" width="500"/>
+  <img src="images/long_range_area.png" alt="Long-range" width="600"/>
   <br>
   <em>Shot from the picture is not long-range.</em>
 </p>

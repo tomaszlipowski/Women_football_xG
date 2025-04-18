@@ -18,7 +18,7 @@ Initial steps were exploratory, as documented in [`first_analysis.ipynb`](beginn
   <em>This pitch was hand-drawn using basic geometry and Matplotlib. It represents one of the earliest stages of the project when I wasn't aware of Statsbombpy Pitch.</em>
 </p>
 
-After receiving the grant, I enrolled in several courses, including the **McKayJohns' course**, where I developed an interactive [`dashboard.ipynb`](courses/dashboard.ipynb):
+After receiving the grant, I enrolled in several courses, including the **McKayJohns' course**, where I developed an interactive [`dashboard.ipynb`](preparation/dashboard.ipynb):
 
 <p align="center">
   <img src="images/dashboard.png" alt="Dashboard" width="500"/>
@@ -105,4 +105,4 @@ The study provided a deeper understanding of the women’s football context. The
 
 ---
 
-<pre> ## 📂 Repository Structure ``` women_football_xG/ ├── README.md ├── article_PP-RAI2025.pdf ├── poster_PP-RAI2025.pdf ├── presentation_PP-RAI2025.pdf ├── beginnings/ │ └── first_analysis.ipynb ├── courses/ │ ├── dashboard.ipynb │ └── match_prediction.ipynb ├── my_xG/ │ ├── data_preparation.ipynb │ ├── my_xG.ipynb │ └── equal_dataframe.csv ├── images/ │ ├── additional_parameters.png │ ├── drawn_pitch.png │ ├── dashboard.png │ ├── long-range_shot.png │ └── xG_distribution.png ``` </pre>
+<pre> ## 📂 Repository Structure ``` women_football_xG/ ├── README.md ├── article_PP-RAI2025.pdf ├── poster_PP-RAI2025.pdf ├── presentation_PP-RAI2025.pdf ├── beginnings/ │ └── first_analysis.ipynb ├── preparation/ │ ├── dashboard.ipynb │ └── match_prediction.ipynb ├── my_xG/ │ ├── data_preparation.ipynb │ ├── my_xG.ipynb │ └── equal_dataframe.csv ├── images/ │ ├── additional_parameters.png │ ├── drawn_pitch.png │ ├── dashboard.png │ ├── long-range_shot.png │ └── xG_distribution.png ``` </pre>

@@ -43,7 +43,7 @@ As part of the analysis, I examined how long-range shots differ between men's an
 <p align="center">
   <img src="images/long_range_area.png" alt="Long-range" width="500"/>
   <br>
-  <em>The shot presented in the visualization above is **not** classified as a long-distance shot.  
+  <em>The shot presented in the visualization above is <strong>not</strong> classified as a long-distance shot.  
 Only attempts taken from outside the blue zone and the penalty area are considered long-distance shots in this context.</em>
 </p>
 
@@ -118,7 +118,7 @@ The study provided a deeper understanding of the women’s football context. The
 `women_football_xG/`  
 `├── README.md`  
 `├── article_PP-RAI2025.pdf`  
-`├── poster_PP-RAI2025.pdf`
+`├── poster_PP-RAI2025.pdf`  
 `├── beginnings/`  
 `│     └── first_analysis.ipynb`  
 `├── preparation/`  
@@ -126,7 +126,7 @@ The study provided a deeper understanding of the women’s football context. The
 `│     └── match_prediction.ipynb`  
 `├── my_xG/`  
 `│     ├── data_preparation.ipynb`  
-`│     ├── my_xG.ipynb`
+`│     ├── my_xG.ipynb`  
 `│     └── equal_dataframe.csv`  
 `├── images/`  
 `│     ├── additional_parameters.png`  

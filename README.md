@@ -18,6 +18,8 @@ Initial steps were exploratory, as documented in [`first_analysis.ipynb`](beginn
   <em>This pitch was hand-drawn using basic geometry and Matplotlib. It represents one of the earliest stages of the project when I wasn't aware of Statsbombpy Pitch.</em>
 </p>
 
+---
+
 After receiving the grant, I enrolled in several courses, including the **McKayJohns' course**, where I developed an interactive [`dashboard.ipynb`](preparation/dashboard.ipynb):
 
 <p align="center">
@@ -31,6 +33,35 @@ Eventually, I narrowed the focus to the xG model for women's football. This fina
 - 🔗 [Article](article_PP-RAI2025.pdf)
 - 🔗 [Conference poster](poster_PP-RAI2025.pdf)
 - 🔗 You can download the full paper from the [Releases section](https://github.com/tomaszlipowski/Women_football_xG/releases/)
+
+---
+
+## 🎯 Long-range Shots & Tactical Context
+
+As part of the analysis, I examined how long-range shots differ between men's and women's football, uncovering key distinctions that highlight the importance of adapting xG models to women’s football.
+
+<p align="center">
+  <img src="images/long_range_area.png" alt="Long-range" width="500"/>
+  <br>
+  <em>The shot presented in the visualization above is **not** classified as a long-distance shot.  
+Only attempts taken from outside the blue zone and the penalty area are considered long-distance shots in this context.</em>
+</p>
+
+---
+
+### 📈 Long-range Shot Statistics Comparison
+
+| **Metric**                               | **Female** | **Male** |
+|------------------------------------------|------------|----------|
+| Total long-range shots                   | 3,507      | 3,554    |
+| Long-range goals                         | 129        | 87       |
+| Long-range shot accuracy (Goals/Shots)   | 3.68%      | 2.45%    |
+| Long-range shot frequency (Shots/All)    | 26.90%     | 29.28%   |
+| Long-range goals share (Goals/All Goals) | 0.99%      | 0.72%    |
+
+As can be seen from the above analysis, quite unexpectedly, women achieve better results in long-distance shots.  
+With this knowledge in mind, five new parameters have been created to improve the model's prediction performance. 
+
 ---
 
 ## 🤖 Final xG Model
@@ -68,18 +99,6 @@ At the start of the notebook, you can choose whether to train the model once or 
 
 ---
 
-## 🎯 Long-range Shots & Tactical Context
-
-As part of the analysis, I examined how long-range shots differ between men's and women's football, uncovering key distinctions that highlight the importance of adapting xG models to women’s football.
-
-<p align="center">
-  <img src="images/long_range_area.png" alt="Long-range" width="500"/>
-  <br>
-  <em>Shot from the picture is not long-range.</em>
-</p>
-
----
-
 ## 📊 Results
 
 <p align="center">
@@ -88,19 +107,9 @@ As part of the analysis, I examined how long-range shots differ between men's an
   <em>Distribution of predicted probabilities vs Statsbombs.</em>
 </p>
 
-### 📈 Long-range Shot Statistics Comparison
-
-| **Metric**                               | **Female** | **Male** |
-|------------------------------------------|------------|----------|
-| Total long-range shots                   | 3,507      | 3,554    |
-| Long-range goals                         | 129        | 87       |
-| Long-range shot accuracy (Goals/Shots)   | 3.68%      | 2.45%    |
-| Long-range shot frequency (Shots/All)    | 26.90%     | 29.28%   |
-| Long-range goals share (Goals/All Goals) | 0.99%      | 0.72%    |
-
 The analysis revealed a **notable distinction between women’s and men’s football** — specifically, the prevalence and characteristics of **long-range goals** in the women’s game. This finding reinforces the need for a dedicated women’s xG model that is more sensitive to long-range shot patterns.
 
-The study provided a deeper understanding of the women’s football context. The custom model, **my xG**, after incorporating additional variables (_SB + DCI_), **reduced the log loss from 0.273 to 0.260**. Importantly, **most newly added features ranked among the most influential variables** in the model.
+The study provided a deeper understanding of the women’s football context. The custom model, **my xG**, after incorporating additional variables (_SB + DCI_), **reduced the log loss from 0.273 to 0.259**. Importantly, **most newly added features ranked among the most influential variables** in the model.
 
 ---
 
@@ -109,7 +118,7 @@ The study provided a deeper understanding of the women’s football context. The
 `women_football_xG/`  
 `├── README.md`  
 `├── article_PP-RAI2025.pdf`  
-`├── poster_PP-RAI2025.pdf`  
+`├── poster_PP-RAI2025.pdf`
 `├── beginnings/`  
 `│     └── first_analysis.ipynb`  
 `├── preparation/`  
@@ -117,7 +126,7 @@ The study provided a deeper understanding of the women’s football context. The
 `│     └── match_prediction.ipynb`  
 `├── my_xG/`  
 `│     ├── data_preparation.ipynb`  
-`│     ├── my_xG.ipynb`  
+`│     ├── my_xG.ipynb`
 `│     └── equal_dataframe.csv`  
 `├── images/`  
 `│     ├── additional_parameters.png`  

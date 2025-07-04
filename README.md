@@ -113,6 +113,13 @@ The study provided a deeper understanding of the women’s football context. The
 
 ---
 
+### ✅ Tools & Technologies
+- Python (e.g. `statsbombpy`,  `matplotlib`, `mplsoccer`, `numpy`, `pandas`, `sklearn`, `tensorlow`, `mplsoccer`, `seaborn`, libraries)
+- Jupyter notebook
+- StatsBomb Open Data
+
+---
+
 ## 📂 Repository Structure
 
 `women_football_xG/`  
